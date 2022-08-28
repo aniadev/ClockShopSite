@@ -1,12 +1,25 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/"> Home </router-link> |
-      <router-link to="/about"> About </router-link>
-    </nav>
     <router-view />
   </div>
 </template>
+
+<script lang="ts">
+  import { Vue, Component, Mixins } from 'vue-property-decorator'
+  import getRepository from '@/services'
+  import { namespace } from 'vuex-class'
+  const beBase = namespace('beBase')
+  const bcAuth = namespace('beAuth')
+
+  @Component({
+    components: {}
+  })
+  export default class App extends Vue {
+    created(): void {
+      //   this.$router.push({ name: 'MarketMain' })
+    }
+  }
+</script>
 
 <style lang="scss">
   #app {

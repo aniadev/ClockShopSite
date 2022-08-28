@@ -1,6 +1,6 @@
 <template>
   <div class="loader" :style="{ height: size + 'px' }">
-    <img src="@/assets/images/Rolling-loading.svg" alt="loading" />
+    <img src="@/assets/images/loading.svg" alt="loading" />
   </div>
 </template>
 

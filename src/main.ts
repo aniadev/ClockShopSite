@@ -10,6 +10,16 @@ import locale from 'element-ui/lib/locale/lang/en' // element-ui lang
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI, { locale })
 
+// import fontawesome
+import { library } from '@fortawesome/fontawesome-svg-core'
+/* import specific icons */
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+library.add(fas, fab, far)
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 // import scss
 import '@/assets/styles/index.scss'
 
