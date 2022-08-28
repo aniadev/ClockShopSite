@@ -1,0 +1,151 @@
+:root,
+[data-theme='theme-light'] {
+  //theme
+  --fkb-theme-primary: #f0f2f5;
+  --fkb-theme-navbar: #ffffff;
+  --fkb-theme-post: #ffffff;
+  --fkb-theme-dark: #0a34c7;
+  --fkb-theme-darker: #004578;
+
+  //color
+  --fkb-color-white: #ffffff;
+  --fkb-color-grey10: #faf9f8;
+  --fkb-color-grey20: #f3f2f1;
+  --fkb-color-grey30: #edebe9;
+  --fkb-color-grey40: #e1dfdd;
+  --fkb-color-grey50: #d2d0ce;
+  --fkb-color-grey60: #c8c6c4;
+  --fkb-color-grey90: #a19f9d;
+  --fkb-color-grey110: #8a8886;
+  --fkb-color-grey130: #605e5c;
+  --fkb-color-grey150: #3b3a39;
+  --fkb-color-grey190: #201f1e;
+  --fkb-color-grey230: #131211;
+  --fkb-color-gray: #ccc;
+  --fkb-color-black: #000;
+  --fkb-color-red: #fbedee;
+  --fkb-color-buton-disable: #a19f9d;
+
+  // text color
+  --fkb-text-primary: #0a0b0d;
+  --fkb-text-secondary: #606070;
+  --fkb-text-success: #129961;
+  --fkb-text-like: #2b6af1;
+  --fkb-text-blue: #2b6af1;
+  --fkb-text-menu-header: #0e0b23;
+  --fkb-text-color-tab-item: #5b616e;
+  --fkb-text-disabled: #89909e;
+  --fkb-text-hyperlink: #0151fc;
+  --fkb-text-favorite: #ff3366;
+  --fkb-text-primary-hover: #9d3ef2;
+  --fkb-text-warning: #ffb900;
+  --fkb-text-danger: #ff3333;
+
+  //color border
+  --fkb-input-border: #d2d0ce;
+  --fkb-input-border-error: #ff8080;
+  --fkb-input-hover-border: #9d3ef2;
+  --fkb-border-image-input: #2050f6;
+  --fkb-border-primary: #dadde1;
+  --fkb-border-secondary: #c6c7c9;
+  --fkb-text-discript: #5b616e;
+  --fkb-border-input: #dcdfe6;
+  --fkb-text-discript3: #0e0b23;
+
+  // color input
+  --fkb-input-bg: #f0f2f5;
+  --fkb-select-caret-color: #222222;
+
+  //color divider
+  --fkb-color-divider: #d2d0ce;
+
+  //color status
+  --fkb-bg-error: #fbedee;
+  --fkb-bg-success: #e4f9e2;
+  --fkb-bg-warning: #fff3e2;
+  --fkb-bg-neutral: #f3f2f1;
+  --fkb-bg-locked: #f3f2f1;
+
+  --fkb-status-error: #cf202f;
+  --fkb-required: #cf202f;
+  --fkb-status-success: #129961;
+  --fkb-status-warning: #dd7d00;
+  --fkb-status-neutral: #a19f9d;
+  --fkb-status-pending: #a19f9d;
+  --fkb-status-locked: #5b616e;
+  --fkb-text-gray1: #687787;
+
+  //overlay
+  --fkb-overlay-light: rgba(255, 255, 255, 0.4);
+  --fkb-overlay-dark: rgba(0, 0, 0, 0.4);
+
+  //background
+  --fkb-bg-white: #fff;
+  --fkb-bg-vefied: #f0f5ff;
+  --fkb-bg-market: #faf6f1;
+  --fkb-bg-button-disable: #f3f2f1;
+  --fkb-bg-navbar-icon: #e4e6eb;
+  --fkb-bg-navbar-item: #f3f2f1;
+
+  //checkbox
+  --fkb-cb-bg: #c4c4c4;
+  --fkb-cb-bg-checked: #2050f6;
+  --fkb-cb-border: #d2d0ce;
+
+  //select
+  --fkb-select-border: #d2d0ce;
+
+  //tab
+  --fkb-tab-active: -webkit-linear-gradient(10deg, #9d3ef2 40.29%, #3036f4 97.93%);
+  --fkb-menu-active: -webkit-linear-gradient(0deg, #9d3ef2 40.29%, #3036f4 97.93%);
+  --fkb-tab-buy-active-hover: #106ebe;
+  --fkb-tab-buy-border: #9d3ef2;
+
+  //button
+  --fkb-btn-bg: #fff;
+  --fkb-btn-disable: #f3f2f1;
+  --fkb-btn-bg-hover: #0078d4;
+  --fkb-btn-border: #d2d0ce;
+  --fkb-btn-default-text-hover: -webkit-linear-gradient(10deg, #9d3ef2 40.29%, #3036f4 97.93%);
+  --fkb-btn-default-border-hover: #9d3ef2;
+  --fkb-btn-text: #fff;
+  --fkb-btn-bg-default-text: #2f3640;
+  --fkb-btn-bg-default-hover: #e6e6e6;
+  --fkb-btn-bg-default: #f2f2f2;
+  --fkb-btn-bg-primary-hover: #6aaaff;
+  --fkb-btn-bg-primary: #1877f2;
+  --fkb-btn-bg-success: #16ad16;
+  --fkb-btn-bg-success-hover: #41db41;
+  --fkb-btn-bg-warning: #f9ca24;
+  --fkb-btn-bg-warning-hover: #f6e58d;
+  --fkb-btn-bg-error: #eb4d4b;
+  --fkb-btn-bg-error-hover: #ff7979;
+  --fkb-btn-bg-info: #535c68;
+  --fkb-btn-bg-info-hover: #95afc0;
+
+  --fkb-btn-bg-disabled: #d9d9d9;
+  --fkb-btn-text-disabled: #ffffff;
+
+  //table
+  --fkb-table-text-color: #201f1e;
+  --fkb-table-border: #dbdbdb;
+  --fkb-table-row-hover: #f3f3f3;
+
+  //form
+  --fkb-form-label: #0a0b0d;
+  --fkb-form-input: #0a0b0d;
+  //shadow
+  --fkb-box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.1), 0px 1.6px 3.6px rgba(0, 0, 0, 0.13);
+  //checkbox
+  --fkb-bg-checkbox: #0151fc;
+  --fkb-bg-checkbox-disabled: #8ca4f7;
+
+  //popup
+  --fkb-icon-close-popup: #0078d4;
+  // hover
+  --fkb-sidebar-bg-hover: #e9e9e9;
+  // icons
+  --fkb-icon-color-wiki: #0078d4;
+  --fkb-icon-color-messenger: #fa475c;
+  --fkb-icon-color-friends: #22a6b3;
+}
