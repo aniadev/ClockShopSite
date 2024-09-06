@@ -1,4 +1,4 @@
-# vue_fakebook
+# Clock Shop Webapp
 
 ## Project setup
 ```
